@@ -1,3 +1,4 @@
+
 /* Main Portion */
 main{
   margin-left:auto;
@@ -51,3 +52,85 @@ main{
   display:table;
   clear:both;
 }
+
+footer {
+  width: 901px;
+  margin: 0 auto;
+}
+
+footer hr {
+  display: inline-block;
+  opacity: .5;
+}
+
+footer hr {
+  width: 423px;
+}
+
+
+.footer-rule {
+  height: 15px;
+  background-image: url(/img/hr-img.png);
+  background-repeat: repeat;
+}
+
+.footer-main {
+  margin-top: 30px;
+  height: 175px;
+}
+
+.footer-headshot {
+  float: left;
+  margin-right: 15px;
+}
+
+.footer-bio {
+  display: inline-block;
+}
+
+.footer-bio_header {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  opacity: .7;
+}
+
+.footer-bio_content {
+  font-size: 18px;
+  width: 550px;
+  margin-top: 0;
+  opacity: .6;
+}
+
+.footer-button {
+  float: right;
+  width: 200px;
+  height: 60px;
+  color: white;
+  background-color: #BC7058;
+  font-size: 18px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+
+.footer-logo {
+  display: inline-block;
+  opacity: .5;
+  height: 35px;
+}
+
+.footer-legalese {
+  margin-top: 40px;
+  text-align: center;
+  opacity: .5;
+}
+
+.footer-legalese_one {
+  margin-bottom: 0;
+}
+
+.footer-legalese_two {
+  margin-top: 5px;
+}
+
+
