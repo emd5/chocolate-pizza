@@ -1,0 +1,69 @@
+body{
+  width: 910px;
+  margin: auto;
+}
+
+/* HEADER */
+header{
+  height: 100px;
+  border: 1px red solid;
+}
+
+header img{
+  float: left;
+  padding: 14px;
+  width: 60px;
+  height: 60px;
+}
+
+.column2 {
+  display: inline-block;
+}
+
+ul{
+  float: right;
+  padding-top: 20px;
+}
+
+header p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+header h1{
+  font-family: 'Yellowtail', cursive;
+  
+  margin: 14px 0px 0px 0px;
+}
+
+header ul li{
+  text-decoration: none !important;
+  height: 40px;
+}
+
+li{
+  text-decoration: none;
+}
+header li{
+  display: inline;
+}
+
+header li img{
+  width: 20px;
+  height: 20px;
+  padding: 1px;
+}
+
+header li:nth-child(7){
+  margin-left: 10px;
+  padding-left: 20px;
+}
+
+.header-rule{
+  height: 15px;
+  background-image: url(/img/hr-img.png);
+  background-repeat: repeat;
+}
+
