@@ -1,0 +1,53 @@
+/* Main Portion */
+main{
+  margin-left:auto;
+  margin-right:auto;
+  width:910px;
+}
+.section1{
+  
+}
+.section1 p{
+  color:gray;
+  margin: 0;
+  padding: 0;
+}
+.section1 h1{
+
+  margin: 0;
+  padding: 0;
+}
+.section2 p{
+  color:gray;
+  margin:0;
+  padding:0;
+  float:right;
+}
+.section2 img:nth-child(1){
+  float:right;
+}
+.section3 p{
+  text-indent: 50px;
+  color:silver;
+  size: 23px;
+}
+.section4{
+ background-image: url("../img/list-bg.png");
+ widows: 910px;
+ height: 150px;
+ background-repeat: no-repeat;
+ color:rgb(85, 75, 75);
+}
+.section4 p{
+  display: inline;
+}
+.section4 .col{
+  margin-top:30px;
+  margin-left: 50px;
+  float:left;
+  width:40%;
+}
+.section:after{
+  display:table;
+  clear:both;
+}
